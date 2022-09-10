@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="../Task 1-1/css/styles.css" />
+        <title>Base</title>
+    </head>
+
+    <body>
+        <header class="header">
+            <h1 class="header-title">Решение квадратного уравнения</h1>
+        </header>
+        <main class="main">
+            <article class="card">
+                <h3>Введите переменные:</h3>
+                <h4>Внимание округление до целых чисел</h4>
+                <input class="parametr" type="number" placeholder="a" id="a">
+                <input class="parametr" type="number" placeholder="b" id="b">
+                <input class="parametr" type="number" placeholder="c" id="c">
+                <button class="button-design" onClick="solve()"> Рассчитать </button>
+                <div class="result-block">
+                    <input id="result"></input>
+                </div>
+            </article>
+        </main>
+        <script src="solve.js"></script>
+    </body>
+</html>

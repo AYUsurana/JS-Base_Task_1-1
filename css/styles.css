@@ -1,0 +1,24 @@
+body {
+    width: 700px;
+    text-align: center;
+    margin: auto;
+}
+
+.header, .main {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.parametr {
+    width: 50px;
+}
+
+.button-design {
+    width: 100px;
+    background-color: indigo;
+    color: azure;
+    text-align: center;
+}
+
+.result-block {
+    margin-top: 20px;
+}
